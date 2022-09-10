@@ -15,9 +15,10 @@ int main(void)
 {
 int c;
 for (c = 48; c <= 57; c++)
-putchar(, c);
-if (c != 57)
-putchar(", ");
+putchar((c % 58) + '0');
+if (num == 57)
+continue;
+putchar(',');
 putchar(' ');
 putchar('\n');
 return (0);

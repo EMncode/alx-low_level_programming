@@ -2,6 +2,7 @@
 
 /**
  * main - print_alphabet
+ * Description: print_alphabet
  * Return: 0
  */
 
@@ -16,5 +17,4 @@ void print_alphabet(void)
 
 	}
 	_putchar('\n');
-	
 }

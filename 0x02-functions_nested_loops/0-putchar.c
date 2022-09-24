@@ -1,13 +1,13 @@
-#include "_putchar.h"
+#include "main.h"
 
 int main(void)
 {
-	char *c = "_putchar";
+	char *sh = "_putchar";
 
-	while (*c)
+	while (*sh)
 	{
-		_putchar(*c);
-		c++;
+		_putchar(*sh);
+		sh++;
 	}
 	_putchar('\n');
 
